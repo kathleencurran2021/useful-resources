@@ -81,3 +81,105 @@ This repo has code snippets, directions, resources, etc, to use as a reference
         2. Npm run build:os
         3. Npm run build:android
 
+## deploying to mobile
+1. Navigate to you your Ionic project and run $ ionic build in the terminal 
+2. Create the iOS and Android projects by running 
+    1. ionic cap add ios
+    2. ionic cap add android
+    3. These create android and iOS folders at the root of your project 
+    4. You only have to do this the first time you deploy 
+3. Every time you perform a build you have to copy the changes you made into the native projects 
+    1. Ionic cap copy
+4. If you make any changes in the native projects, you can push it back to the source code with 
+    1. Ionic cap sync
+
+Spinning up to browser
+1. Ionic serve
+
+Deploying to iOS
+1. Ionic cap open iOS
+    2. Will open your native ios project in Xcode
+2. Click on the app in the project navigator on the left side 
+3. Click on signing and capabilities and select Centene Corporation as your team 
+    4. Ensure that your bundle identifier looks like com.centene.<project_name>
+4. Deploying to a device 
+    1. Connect your iPhone to your Mac 
+    2. On your phone, open settings -> general -> profiles and device management 
+        1. Tap Apple development: your team and select Trust
+    3. In Xcode click build to install and launch the app onto your apple device
+5. Deploying to a simulator
+    1. When Xcode opens, go to the top left where you’ll see Generic iOS device. Clicking it will open a list of devices you can deploy to 
+    2. Select your preferred device and build it
+
+Deploying to Android
+1. Ionic cap open iOS
+    1. Will open native project in android studio
+2. To connect to an android device 
+    1. Connect device to your computer (can be either Mac or pc)
+    2. In android studio click the run button, select your device, then click OK to install and launch the app on the device
+3. To run on an emulator
+    1. Open tools —> AVD manager
+    2. A window called your virtual devices will open. Click Create virtual device
+    3. Select the category phone and your desired version
+    4. If you want to adjust emulator properties, select New Hardware Profile
+    5. Click next
+    6. Select system image. API level 28 is recommended
+    7. Give your device a name and click finish
+    8. Exit out of virtual devices and build your app. Then click run
+
+Troubleshooting 
+* Run ionic cap copy and try building it again
+* If the app wont deploy to your iPhone
+    * Ensure that you have the right bundle identifier and team 
+    * Update Capacitor iOS to the most recent version
+▪	yarn add @capacitor/ios@latest
+	▪	If a sensor or other property isn't working the way it should
+    * Check your permissions 
+        * iOS: App → Info → Custom iOS Target Properties
+        * Android: android/app/src/main/AndroidManifest.xml and check under the Permissions section 
+* Android won't build
+    * Check that your SDK has downloaded 
+    * Go to File → Sync Project with Gradle Files 
+    * Update Capacitor Android to the most recent version 
+▪	yarn add @capacitor/android@latest
+	▪	Gradle Issues
+    * Close out of Android Studio
+    * Go to the project folder in the Finder
+    * Delete the .idea directory
+    * Delete the .iml files
+    * Re-open Android Studio and open your project
+* General issues
+    * Keep Capacitor core and CLI up to date
+▪	yarn add @capacitor/cli@latest yarn add @capacitor/core@latest
+
+
+
+# Resources
+
+## Ionic
+### Ionic and React 
+* [using hooks in ionic](https://ionicframework.com/blog/using-react-hooks-in-an-ionic-react-app/)
+
+
+## React
+
+* [React Master Resource](https://github.com/enaqx/awesome-react#react-general-resources)
+* [React Interview Questions](https://github.com/sudheerj/reactjs-interview-questions#what-is-react)
+* [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
+* [React/Typescript Cheatsheet](https://github.com/typescript-cheatsheets/react/blob/main/README.md#basic-cheatsheet-table-of-contents)
+### hooks
+* [Context](https://reactjs.org/docs/context.html)
+* [useEffect](https://dev.to/iquirino/react-hook-clean-up-useeffect-24e7)
+* 
+
+
+
+
+
+
+
+
+
+
+
+
