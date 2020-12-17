@@ -230,20 +230,23 @@ Troubleshooting
 * [Sass](https://sass-lang.com/)
 
 
-# npm Packaging
+## npm Packaging
 * [import component outside src directory](https://stackoverflow.com/questions/49705170/reactjs-import-component-outside-src-directory)
 * [Create a React npm package](https://www.codementor.io/@peterodekwo/create-a-simple-react-npm-package-in-simple-steps-using-cra-w966okagi)
 * [Guide to publishing a react package to npm](https://blog.logrocket.com/the-complete-guide-to-publishing-a-react-package-to-npm/)
 * [Package React Component to distribute](https://itnext.io/how-to-package-your-react-component-for-distribution-via-npm-d32d4bf71b4f)
 * [multiple output paths in Webpack](https://stackoverflow.com/questions/35903246/how-to-create-multiple-output-paths-in-webpack-config)
 
+## Lerna
+* [Lerna, TS, CRA, and Storybook](https://dev.to/shnydercom/monorepos-lerna-typescript-cra-and-storybook-combined-4hli)
+* [Monorepo Setup](https://medium.com/@sisosys7/a-monorepo-setup-with-lerna-react-and-typescript-7b912fb48622)
+* [Short Lerna tutorial](https://medium.com/shopback-engineering/lerna-tutorial-series-brief-f77f40c5777f)
 
-# JavaScript
+## JavaScript
 * [Promises vs Async Await](https://medium.com/better-programming/should-i-use-promises-or-async-await-126ab5c98789#:~:text=Promise%20creation%20starts%20the%20execution,have%20any%20effect%20on%20it.)
 * [Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 
-
-# Testing
+## Testing
 * [Jest test React apps](https://jestjs.io/docs/en/tutorial-react)
 * [jest mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
 * [Cypress Beginner Tutorial](https://www.valentinog.com/blog/cypress/)
@@ -257,8 +260,9 @@ Running a Jest Test
     1. This will run all the tests in the repository. Press any key to quit
 5. Press ‘P’ and search for the test you want to run 
 
-# Other Useful Resources
+## Other Useful Resources
 [Nicole Google Drive](https://drive.google.com/drive/folders/1J3aDFuuHbQnJTtD5t2IWK7Q57JoiTalo?usp=sharing)
+
 [Rudy Resource](https://github.com/rwschmitz/useful-information)
 
 
