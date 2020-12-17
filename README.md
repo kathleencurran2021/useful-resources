@@ -157,8 +157,55 @@ Troubleshooting
 # Resources
 
 ## Ionic
+### Capacitor
+* [Capacitor - Mobile and PWA](https://ionicframework.com/resources/webinars/capacitor-2-launch?utm_campaign=capacitor&utm_source=hs_email&utm_medium=email&utm_content=88296761&_hsenc=p2ANqtz-_FHTIb4SiWJzC1f-LuItxTGDat_uZNLik1AS8bBwoPGSE7OZwW2wHoX27uX_bWth0YhtNYs3DjW6wP__h7eaKl3viwgg&_hsmi=88296761)
+* [Building a Capacitor App](https://capacitorjs.com/docs/basics/building-your-app)
+* [isPlatform method](https://ionicframework.com/docs/react/platform)
+* [inAppBrowser](https://ionicframework.com/docs/native/in-app-browser/)
+* [adding multiple components to ionic app](https://levelup.gitconnected.com/adding-multiple-components-to-your-ionic-application-8ba5d5523aa7)
+* [Common Config](https://capacitorjs.com/docs/basics/configuring-your-app#common-configuration)
+* [Deep Linking](https://capacitorjs.com/docs/guides/deep-links)
+
+
+
+### Gestures
+* [Gestures](https://ionicframework.com/docs/utilities/gestures)
+* [Tinder Swipe Cards w Gestures](https://www.joshmorony.com/create-tinder-style-swipe-cards-with-ionic-gestures/)
+* [Custom Gestures](https://ionicacademy.com/custom-gestures-ionic/)
+* [Add UX through double taps](https://medium.com/@JordanBenge/ionic-4-quickly-add-ux-through-the-use-of-double-taps-5f6e3216a289)
+
+
 ### Ionic and React 
 * [using hooks in ionic](https://ionicframework.com/blog/using-react-hooks-in-an-ionic-react-app/)
+* [React Navigation in Ionic](https://ionicframework.com/docs/react/navigation)
+* [More React Navigation](https://www.digitalocean.com/community/tutorials/ionic-ionic-4-react-navigation)
+* [Ionic React Quickstart](https://ionicframework.com/docs/react/quickstart)
+
+### iOS
+* [Configuring iOS](https://capacitorjs.com/docs/ios/configuration)
+* [Safe Area Inset](https://www.quirksmode.org/blog/archives/2017/10/safeareainset_v.html)
+* [Designing Websites for iphone 10](https://webkit.org/blog/7929/designing-websites-for-iphone-x/)
+* [Redirect URI - Stackoverflow](https://stackoverflow.com/questions/53692030/custom-redirect-uri-to-macos-app-not-working)
+* [Provisioning Profile](https://clearbridgemobile.com/how-to-create-a-distribution-provisioning-profile-for-ios/)
+* [URL Scheme Handling](https://stackoverflow.com/questions/16226240/handling-different-url-schemes-in-ios-facebook-and-instagram)
+* [Cocoapods](https://guides.cocoapods.org/using/getting-started.html)
+
+### Android
+* [Configuring Android](https://capacitorjs.com/docs/android/configuration)
+
+
+## Authentication 
+* [Identity Vault](https://ionic.io/docs/identity-vault)
+* [Google Login Capacitor](https://enappd.com/blog/google-login-in-ionic-react-capacitor-apps/122/)
+* [Auth0 Ionic](https://auth0.com/docs/quickstart/native/ionic4/01-login?_ga=2.243705925.1180762906.1594330750-437815093.1594330749)
+* [Managing Authentication with Context](https://dev.to/aaronksaunders/learn-to-build-mobile-apps-with-ionic-framework-reactjs-and-capacitor-manage-authentication-state-using-react-context-api-n9j)
+* [Maintain User state on refresh](https://stackoverflow.com/questions/58879856/how-to-maintain-the-authenticated-user-state-on-page-refresh-with-react)
+* [Okta build an Ionic app with User Auth](https://developer.okta.com/blog/2017/08/22/build-an-ionic-app-with-user-authentication)
+* [Pingone setup iOS](https://github.com/pingidentity/pingone-sample-native-mobile#ios-setup)
+* [AppAuth](https://github.com/openid/AppAuth-JS/issues/8)
+* [Pingone API reference](https://apidocs.pingidentity.com/pingone/platform/v1/api/)
+* [Authenticate React with Auth0](https://auth0.com/authenticate/react/ping-federate/)
+* [JWTs in react secure authentication](https://developer.okta.com/blog/2019/10/02/jwt-react-auth)
 
 
 ## React
@@ -167,15 +214,62 @@ Troubleshooting
 * [React Interview Questions](https://github.com/sudheerj/reactjs-interview-questions#what-is-react)
 * [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 * [React/Typescript Cheatsheet](https://github.com/typescript-cheatsheets/react/blob/main/README.md#basic-cheatsheet-table-of-contents)
+* [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/)
+* [Setting up React, Webpack, and Babel](https://www.valentinog.com/blog/webpack/#how-to-set-up-react-webpack-5-and-babel-from-scratch)
+
+### Routing
+[React Router](https://reactrouter.com/web/api/Switch)
+
 ### hooks
 * [Context](https://reactjs.org/docs/context.html)
 * [useEffect](https://dev.to/iquirino/react-hook-clean-up-useeffect-24e7)
-* 
+
+### Styled Components
+* [Styled Component Basics](https://styled-components.com/docs/basics)
+* [Styled Components React Native](https://levelup.gitconnected.com/using-styled-components-with-react-native-de645fcf4787)
+* [Sass](https://sass-lang.com/)
 
 
+# npm Packaging
+* [import component outside src directory](https://stackoverflow.com/questions/49705170/reactjs-import-component-outside-src-directory)
+* [Create a React npm package](https://www.codementor.io/@peterodekwo/create-a-simple-react-npm-package-in-simple-steps-using-cra-w966okagi)
+* [Guide to publishing a react package to npm](https://blog.logrocket.com/the-complete-guide-to-publishing-a-react-package-to-npm/)
+* [Package React Component to distribute](https://itnext.io/how-to-package-your-react-component-for-distribution-via-npm-d32d4bf71b4f)
+* [multiple output paths in Webpack](https://stackoverflow.com/questions/35903246/how-to-create-multiple-output-paths-in-webpack-config)
 
 
+# JavaScript
+* [Promises vs Async Await](https://medium.com/better-programming/should-i-use-promises-or-async-await-126ab5c98789#:~:text=Promise%20creation%20starts%20the%20execution,have%20any%20effect%20on%20it.)
+* [Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 
+
+# Testing
+* [Jest test React apps](https://jestjs.io/docs/en/tutorial-react)
+* [jest mocks](https://medium.com/@rickhanlonii/understanding-jest-mocks-f0046c68e53c)
+* [Cypress Beginner Tutorial](https://www.valentinog.com/blog/cypress/)
+* [Cypress Login SSO Recipe](https://github.com/cypress-io/cypress-example-recipes/blob/master/examples/logging-in__single-sign-on/cypress/integration/logging-in-single-sign-on-spec.js)
+
+Running a Jest Test
+1. Know the name of the test you’re trying to run 
+2. Pull up the terminal
+3. Navigate to the portal folder
+4. Run $ yarn test
+    1. This will run all the tests in the repository. Press any key to quit
+5. Press ‘P’ and search for the test you want to run 
+
+# Other Useful Resources
+[Nicole Google Drive](https://drive.google.com/drive/folders/1J3aDFuuHbQnJTtD5t2IWK7Q57JoiTalo?usp=sharing)
+[Rudy Resource](https://github.com/rwschmitz/useful-information)
+
+
+# Troubleshooting
+* [Cannot find module error](https://stackoverflow.com/questions/54695891/cannot-find-module-for-my-own-typescript-module)
+* [Gradle issue](https://stackoverflow.com/questions/30142056/error-unfortunately-you-cant-have-non-gradle-java-modules-and-android-gradle)
+
+### Tips
+* IF you’re getting that massive babel-loader error and the app won’t spin up on screen --> Delete node_modules from the portal files 
+* If you get the route outside of router error --> Uninstall react-router-dom and reinstall
+* IF vscode can’t find any of your modules --> Run yarn in the affected package
 
 
 
