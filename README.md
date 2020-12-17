@@ -229,6 +229,10 @@ Troubleshooting
 * [Styled Components React Native](https://levelup.gitconnected.com/using-styled-components-with-react-native-de645fcf4787)
 * [Sass](https://sass-lang.com/)
 
+### Practice Examples 
+* [Movie Star UI](https://github.com/aagavin/movie-star-ui/tree/master/src)
+* [React Masterminds](https://github.com/drminnaar/react-masterminds)
+
 
 ## npm Packaging
 * [import component outside src directory](https://stackoverflow.com/questions/49705170/reactjs-import-component-outside-src-directory)
