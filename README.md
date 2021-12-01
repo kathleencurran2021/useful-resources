@@ -165,6 +165,10 @@ Troubleshooting
 * [adding multiple components to ionic app](https://levelup.gitconnected.com/adding-multiple-components-to-your-ionic-application-8ba5d5523aa7)
 * [Common Config](https://capacitorjs.com/docs/basics/configuring-your-app#common-configuration)
 * [Deep Linking](https://capacitorjs.com/docs/guides/deep-links)
+* [Background Mode Docs](https://ionicframework.com/docs/native/background-mode/)
+* [ionic-storage](https://github.com/ionic-team/ionic-storage/blob/main/examples/react/src/App.tsx)
+* [Data Storage](https://ionicframework.com/docs/react/storage)
+
 
 
 
@@ -173,8 +177,22 @@ Troubleshooting
 * [Tinder Swipe Cards w Gestures](https://www.joshmorony.com/create-tinder-style-swipe-cards-with-ionic-gestures/)
 * [Custom Gestures](https://ionicacademy.com/custom-gestures-ionic/)
 * [Add UX through double taps](https://medium.com/@JordanBenge/ionic-4-quickly-add-ux-through-the-use-of-double-taps-5f6e3216a289)
+	
+	
+### Local Notifications
+* [Firebast Push Notifications using Capacitor](https://enappd.com/blog/firebase-push-notification-in-ionic-react-capacitor/111/)
+* [Ionic React Local Notifications using Capacitor](https://blog.chinaza.dev/ionic-react-local-notifications-using-capacitor)
+* [Local Notifications Example](https://github.com/ionic-team/capacitor-testapp/blob/main/src/components/LocalNotificationTest.tsx)
+* [Creating Capacitor Local Notifications with sound and actions buttons](https://www.youtube.com/watch?v=bww4a4B43tM)
+* [Local Notifications Docs](https://ionicframework.com/docs/v3/native/local-notifications/)
 
 
+### Persisting
+* [Persisting React State](https://dev.to/selbekk/persisting-your-react-state-in-9-lines-of-code-9go)
+* [Persistent Global Store](https://dev.to/bigaru/creating-persistent-synchronized-global-store-using-react-hooks-in-typescript-209a)
+* [Global Cached State](https://medium.com/@akrush95/global-cached-state-in-react-using-hooks-context-and-local-storage-166eacf8ab46)
+* [LocalStorage()](https://usehooks-ts.com/react-hook/use-local-storage)
+	
 ### Ionic and React 
 * [using hooks in ionic](https://ionicframework.com/blog/using-react-hooks-in-an-ionic-react-app/)
 * [React Navigation in Ionic](https://ionicframework.com/docs/react/navigation)
@@ -216,10 +234,23 @@ Troubleshooting
 * [React/Typescript Cheatsheet](https://github.com/typescript-cheatsheets/react/blob/main/README.md#basic-cheatsheet-table-of-contents)
 * [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction/)
 * [Setting up React, Webpack, and Babel](https://www.valentinog.com/blog/webpack/#how-to-set-up-react-webpack-5-and-babel-from-scratch)
+* [React Props Cheatsheet](https://www.freecodecamp.org/news/react-props-cheatsheet/)
+
+### Components
+* [Extending Components](https://www.pluralsight.com/guides/use-interface-props-in-functional-components-using-typescript-with-react)
+* [Opening and Closing Modals in Different Components](https://stackoverflow.com/questions/61864072/trying-to-open-and-close-a-modal-in-different-components)
 
 ### Routing
 [React Router](https://reactrouter.com/web/api/Switch)
+[React Router Example](https://github.com/thanhbinhtran93/react-router-example/tree/master/src)
 
+	
+### Interface
+* [Interface Props in Functional Components](https://www.pluralsight.com/guides/use-interface-props-in-functional-components-using-typescript-with-react)
+* [Interfaces in Typescript](https://blog.logrocket.com/interfaces-in-typescript-what-are-they-and-how-do-we-use-them-befbc69b38b3/)
+* [Change Button color on Click](https://stackoverflow.com/questions/60929233/how-to-change-buttons-color-on-click-of-button-in-ionic-4)
+* [Set a style of a focused element dynamically](https://forum.ionicframework.com/t/set-style-of-a-focused-element-dynamically/135642)
+	
 ### hooks
 * [Context](https://reactjs.org/docs/context.html)
 * [useEffect](https://dev.to/iquirino/react-hook-clean-up-useeffect-24e7)
@@ -234,6 +265,9 @@ Troubleshooting
 * [React Masterminds](https://github.com/drminnaar/react-masterminds)
 
 
+	
+	
+	
 ## npm Packaging
 * [import component outside src directory](https://stackoverflow.com/questions/49705170/reactjs-import-component-outside-src-directory)
 * [Create a React npm package](https://www.codementor.io/@peterodekwo/create-a-simple-react-npm-package-in-simple-steps-using-cra-w966okagi)
