@@ -5,6 +5,7 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 [Mobile](#mobile)
 * [Setting Up the Environment](#mobile-dev-environment-setup)
 * [Deploying](#deploying)
+* [Troubleshooting](#troubleshooting)
 
 [Ionic](#ionic)
 * [Gestures](#gestures)
@@ -25,7 +26,12 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 
 
 [Other](#other)
-
+* [Git Resources](#git-resources)
+* [Terminal](#terminal)
+* [npm](#npm-packaging)
+* [Lerna](#lerna)
+* [JavaScript](#javascript)
+* [Testing](#testing)
 
 
 
@@ -147,6 +153,8 @@ This repo has code snippets, directions, resources, etc, to use as a reference
     6. Select system image. API level 28 is recommended
     7. Give your device a name and click finish
     8. Exit out of virtual devices and build your app. Then click run
+	
+## Troubleshooting
 
 ### Deployment Troubleshooting 
 * Run ionic cap copy and try building it again
@@ -172,6 +180,17 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 * General issues
     * Keep Capacitor core and CLI up to date
 ▪	yarn add @capacitor/cli@latest yarn add @capacitor/core@latest
+
+	
+### Mobile Troubleshooting
+* [Cannot find module error](https://stackoverflow.com/questions/54695891/cannot-find-module-for-my-own-typescript-module)
+* [Gradle issue](https://stackoverflow.com/questions/30142056/error-unfortunately-you-cant-have-non-gradle-java-modules-and-android-gradle)
+
+**Tips**
+* IF you’re getting that massive babel-loader error and the app won’t spin up on screen --> Delete node_modules from the portal files 
+* If you get the route outside of router error --> Uninstall react-router-dom and reinstall
+* IF vscode can’t find any of your modules --> Run yarn in the affected package
+
 
 
 
@@ -291,7 +310,19 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 
 # Other
 	
+## Git Resources
+* [Adding SSH key to agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+* [Adding SSH to Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+* [Merge Conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
 	
+## Terminal 
+* [Master List of Linux Commands](https://kinsta.com/blog/linux-commands/)
+	
+### Troubleshooting
+* [Git Troubleshooting](https://dangitgit.com/en)
+* [Error couldn't read from remote repository](https://stackoverflow.com/questions/30068298/git-fatal-could-not-read-from-remote-repository-please-make-sure-you-have-th)
+	
+
 ## npm Packaging
 * [import component outside src directory](https://stackoverflow.com/questions/49705170/reactjs-import-component-outside-src-directory)
 * [Create a React npm package](https://www.codementor.io/@peterodekwo/create-a-simple-react-npm-package-in-simple-steps-using-cra-w966okagi)
@@ -322,34 +353,11 @@ Running a Jest Test
     1. This will run all the tests in the repository. Press any key to quit
 5. Press ‘P’ and search for the test you want to run 
 
-## Other Useful Resources
+
+	
+
+# Other Useful Resources
 [Nicole Google Drive](https://drive.google.com/drive/folders/1J3aDFuuHbQnJTtD5t2IWK7Q57JoiTalo?usp=sharing)
 
 [Rudy Resource](https://github.com/rwschmitz/useful-information)
-
-
-## Mobile Troubleshooting
-* [Cannot find module error](https://stackoverflow.com/questions/54695891/cannot-find-module-for-my-own-typescript-module)
-* [Gradle issue](https://stackoverflow.com/questions/30142056/error-unfortunately-you-cant-have-non-gradle-java-modules-and-android-gradle)
-
-### Tips
-* IF you’re getting that massive babel-loader error and the app won’t spin up on screen --> Delete node_modules from the portal files 
-* If you get the route outside of router error --> Uninstall react-router-dom and reinstall
-* IF vscode can’t find any of your modules --> Run yarn in the affected package
-
-
-	
-## Command Line, Linux, and Git 
-* [Master List of Linux Commands](https://kinsta.com/blog/linux-commands/)
-* [Adding SSH key to agent] (https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-* [Adding SSH to Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-* [Merge Conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
-	
-	
-### Troubleshooting
-* [Git Troubleshooting](https://dangitgit.com/en)
-* [Error couldn't read from remote repository](https://stackoverflow.com/questions/30068298/git-fatal-could-not-read-from-remote-repository-please-make-sure-you-have-th)
-
-
-
 
