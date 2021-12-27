@@ -304,7 +304,7 @@ Running a Jest Test
 [Rudy Resource](https://github.com/rwschmitz/useful-information)
 
 
-# Troubleshooting
+## Mobile Troubleshooting
 * [Cannot find module error](https://stackoverflow.com/questions/54695891/cannot-find-module-for-my-own-typescript-module)
 * [Gradle issue](https://stackoverflow.com/questions/30142056/error-unfortunately-you-cant-have-non-gradle-java-modules-and-android-gradle)
 
