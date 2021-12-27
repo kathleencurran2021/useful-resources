@@ -4,7 +4,7 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 
 1. Ionic 
 2. React
-3. Command Line
+3. Other
 
 
 
@@ -314,7 +314,19 @@ Running a Jest Test
 * IF vscode can’t find any of your modules --> Run yarn in the affected package
 
 
-
+	
+# Other
+	
+## Command Line, Linux, and Git 
+* [Master List of Linux Commands](https://kinsta.com/blog/linux-commands/)
+* [Adding SSH key to agent] (https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+* [Adding SSH to Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+* [Merge Conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
+	
+	
+### Troubleshooting
+* [Git Troubleshooting](https://dangitgit.com/en)
+* [Error couldn't read from remote repository](https://stackoverflow.com/questions/30068298/git-fatal-could-not-read-from-remote-repository-please-make-sure-you-have-th)
 
 
 
