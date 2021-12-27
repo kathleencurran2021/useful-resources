@@ -2,15 +2,35 @@
 This repo has code snippets, directions, resources, etc, to use as a reference
 
 
-1. [Ionic](#ionic)
-2. [React](#react)
-3. [Other](#other)
+[Mobile](#mobile)
+* [Setting Up the Environment](#mobile-dev-environment-setup)
+* [Deploying](#deploying)
+
+[Ionic](#ionic)
+* [Gestures](#gestures)
+* [Persisting](#persisting-data)
+* [Platform Specific](#platform-specific)
+* [Authentication](#authentication)
+* [Capacitor](#capacitor)
+* [Ionic React](#ionic-and-react)
+
+
+[React](#react)
+* [General](#general)
+* [Components](#components)
+* [Routing](#routing)
+* [Interface](#interface)
+* [Hooks](#hooks)
+* [Styled Components](#styled-components)
+
+
+[Other](#other)
 
 
 
 
 
-# Ionic 
+# Mobile 
 ## Mobile Dev Environment Setup
 1. Turn on Hidden folders 
     1. In terminal run $ defaults write com.apple.finder AppleShowAllFiles YES
@@ -81,7 +101,8 @@ This repo has code snippets, directions, resources, etc, to use as a reference
         2. Npm run build:os
         3. Npm run build:android
 
-## deploying to mobile
+## Deploying
+						       
 1. Navigate to you your Ionic project and run $ ionic build in the terminal 
 2. Create the iOS and Android projects by running 
     1. ionic cap add ios
@@ -93,10 +114,10 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 4. If you make any changes in the native projects, you can push it back to the source code with 
     1. Ionic cap sync
 
-Spinning up to browser
+### Spinning up to browser
 1. Ionic serve
 
-Deploying to iOS
+### Deploying to iOS
 1. Ionic cap open iOS
     2. Will open your native ios project in Xcode
 2. Click on the app in the project navigator on the left side 
@@ -111,8 +132,8 @@ Deploying to iOS
     1. When Xcode opens, go to the top left where you’ll see Generic iOS device. Clicking it will open a list of devices you can deploy to 
     2. Select your preferred device and build it
 
-Deploying to Android
-1. Ionic cap open iOS
+### Deploying to Android
+1. Ionic cap open android
     1. Will open native project in android studio
 2. To connect to an android device 
     1. Connect device to your computer (can be either Mac or pc)
@@ -127,7 +148,7 @@ Deploying to Android
     7. Give your device a name and click finish
     8. Exit out of virtual devices and build your app. Then click run
 
-Troubleshooting 
+### Deployment Troubleshooting 
 * Run ionic cap copy and try building it again
 * If the app wont deploy to your iPhone
     * Ensure that you have the right bundle identifier and team 
@@ -154,50 +175,23 @@ Troubleshooting
 
 
 
-# Resources
+# Ionic
 
-## Ionic
-### Capacitor
-* [Capacitor - Mobile and PWA](https://ionicframework.com/resources/webinars/capacitor-2-launch?utm_campaign=capacitor&utm_source=hs_email&utm_medium=email&utm_content=88296761&_hsenc=p2ANqtz-_FHTIb4SiWJzC1f-LuItxTGDat_uZNLik1AS8bBwoPGSE7OZwW2wHoX27uX_bWth0YhtNYs3DjW6wP__h7eaKl3viwgg&_hsmi=88296761)
-* [Building a Capacitor App](https://capacitorjs.com/docs/basics/building-your-app)
-* [isPlatform method](https://ionicframework.com/docs/react/platform)
-* [inAppBrowser](https://ionicframework.com/docs/native/in-app-browser/)
-* [adding multiple components to ionic app](https://levelup.gitconnected.com/adding-multiple-components-to-your-ionic-application-8ba5d5523aa7)
-* [Common Config](https://capacitorjs.com/docs/basics/configuring-your-app#common-configuration)
-* [Deep Linking](https://capacitorjs.com/docs/guides/deep-links)
-* [Background Mode Docs](https://ionicframework.com/docs/native/background-mode/)
-* [ionic-storage](https://github.com/ionic-team/ionic-storage/blob/main/examples/react/src/App.tsx)
-* [Data Storage](https://ionicframework.com/docs/react/storage)
-
-
-
-
-### Gestures
+## Gestures
 * [Gestures](https://ionicframework.com/docs/utilities/gestures)
 * [Tinder Swipe Cards w Gestures](https://www.joshmorony.com/create-tinder-style-swipe-cards-with-ionic-gestures/)
 * [Custom Gestures](https://ionicacademy.com/custom-gestures-ionic/)
 * [Add UX through double taps](https://medium.com/@JordanBenge/ionic-4-quickly-add-ux-through-the-use-of-double-taps-5f6e3216a289)
-	
-	
-### Local Notifications
-* [Firebast Push Notifications using Capacitor](https://enappd.com/blog/firebase-push-notification-in-ionic-react-capacitor/111/)
-* [Ionic React Local Notifications using Capacitor](https://blog.chinaza.dev/ionic-react-local-notifications-using-capacitor)
-* [Local Notifications Example](https://github.com/ionic-team/capacitor-testapp/blob/main/src/components/LocalNotificationTest.tsx)
-* [Creating Capacitor Local Notifications with sound and actions buttons](https://www.youtube.com/watch?v=bww4a4B43tM)
-* [Local Notifications Docs](https://ionicframework.com/docs/v3/native/local-notifications/)
 
 
-### Persisting
+## Persisting Data
 * [Persisting React State](https://dev.to/selbekk/persisting-your-react-state-in-9-lines-of-code-9go)
 * [Persistent Global Store](https://dev.to/bigaru/creating-persistent-synchronized-global-store-using-react-hooks-in-typescript-209a)
 * [Global Cached State](https://medium.com/@akrush95/global-cached-state-in-react-using-hooks-context-and-local-storage-166eacf8ab46)
 * [LocalStorage()](https://usehooks-ts.com/react-hook/use-local-storage)
 	
-### Ionic and React 
-* [using hooks in ionic](https://ionicframework.com/blog/using-react-hooks-in-an-ionic-react-app/)
-* [React Navigation in Ionic](https://ionicframework.com/docs/react/navigation)
-* [More React Navigation](https://www.digitalocean.com/community/tutorials/ionic-ionic-4-react-navigation)
-* [Ionic React Quickstart](https://ionicframework.com/docs/react/quickstart)
+	
+## Platform Specific
 
 ### iOS
 * [Configuring iOS](https://capacitorjs.com/docs/ios/configuration)
@@ -224,9 +218,38 @@ Troubleshooting
 * [Pingone API reference](https://apidocs.pingidentity.com/pingone/platform/v1/api/)
 * [Authenticate React with Auth0](https://auth0.com/authenticate/react/ping-federate/)
 * [JWTs in react secure authentication](https://developer.okta.com/blog/2019/10/02/jwt-react-auth)
+	
+## Ionic and React 
+* [using hooks in ionic](https://ionicframework.com/blog/using-react-hooks-in-an-ionic-react-app/)
+* [React Navigation in Ionic](https://ionicframework.com/docs/react/navigation)
+* [More React Navigation](https://www.digitalocean.com/community/tutorials/ionic-ionic-4-react-navigation)
+* [Ionic React Quickstart](https://ionicframework.com/docs/react/quickstart)
+	
+	
+## Capacitor
+	
+* [Capacitor - Mobile and PWA](https://ionicframework.com/resources/webinars/capacitor-2-launch?utm_campaign=capacitor&utm_source=hs_email&utm_medium=email&utm_content=88296761&_hsenc=p2ANqtz-_FHTIb4SiWJzC1f-LuItxTGDat_uZNLik1AS8bBwoPGSE7OZwW2wHoX27uX_bWth0YhtNYs3DjW6wP__h7eaKl3viwgg&_hsmi=88296761)
+* [Building a Capacitor App](https://capacitorjs.com/docs/basics/building-your-app)
+* [isPlatform method](https://ionicframework.com/docs/react/platform)
+* [inAppBrowser](https://ionicframework.com/docs/native/in-app-browser/)
+* [adding multiple components to ionic app](https://levelup.gitconnected.com/adding-multiple-components-to-your-ionic-application-8ba5d5523aa7)
+* [Common Config](https://capacitorjs.com/docs/basics/configuring-your-app#common-configuration)
+* [Deep Linking](https://capacitorjs.com/docs/guides/deep-links)
+* [Background Mode Docs](https://ionicframework.com/docs/native/background-mode/)
+* [ionic-storage](https://github.com/ionic-team/ionic-storage/blob/main/examples/react/src/App.tsx)
+* [Data Storage](https://ionicframework.com/docs/react/storage)
 
+### Local Notifications
+* [Firebast Push Notifications using Capacitor](https://enappd.com/blog/firebase-push-notification-in-ionic-react-capacitor/111/)
+* [Ionic React Local Notifications using Capacitor](https://blog.chinaza.dev/ionic-react-local-notifications-using-capacitor)
+* [Local Notifications Example](https://github.com/ionic-team/capacitor-testapp/blob/main/src/components/LocalNotificationTest.tsx)
+* [Creating Capacitor Local Notifications with sound and actions buttons](https://www.youtube.com/watch?v=bww4a4B43tM)
+* [Local Notifications Docs](https://ionicframework.com/docs/v3/native/local-notifications/)
+	
 
 # React
+	
+## General
 
 * [React Master Resource](https://github.com/enaqx/awesome-react#react-general-resources)
 * [React Interview Questions](https://github.com/sudheerj/reactjs-interview-questions#what-is-react)
@@ -236,26 +259,26 @@ Troubleshooting
 * [Setting up React, Webpack, and Babel](https://www.valentinog.com/blog/webpack/#how-to-set-up-react-webpack-5-and-babel-from-scratch)
 * [React Props Cheatsheet](https://www.freecodecamp.org/news/react-props-cheatsheet/)
 
-### Components
+## Components
 * [Extending Components](https://www.pluralsight.com/guides/use-interface-props-in-functional-components-using-typescript-with-react)
 * [Opening and Closing Modals in Different Components](https://stackoverflow.com/questions/61864072/trying-to-open-and-close-a-modal-in-different-components)
 
-### Routing
-[React Router](https://reactrouter.com/web/api/Switch)
-[React Router Example](https://github.com/thanhbinhtran93/react-router-example/tree/master/src)
+## Routing
+* [React Router](https://reactrouter.com/web/api/Switch)
+* [React Router Example](https://github.com/thanhbinhtran93/react-router-example/tree/master/src)
 
 	
-### Interface
+## Interface
 * [Interface Props in Functional Components](https://www.pluralsight.com/guides/use-interface-props-in-functional-components-using-typescript-with-react)
 * [Interfaces in Typescript](https://blog.logrocket.com/interfaces-in-typescript-what-are-they-and-how-do-we-use-them-befbc69b38b3/)
 * [Change Button color on Click](https://stackoverflow.com/questions/60929233/how-to-change-buttons-color-on-click-of-button-in-ionic-4)
 * [Set a style of a focused element dynamically](https://forum.ionicframework.com/t/set-style-of-a-focused-element-dynamically/135642)
 	
-### hooks
+## Hooks
 * [Context](https://reactjs.org/docs/context.html)
 * [useEffect](https://dev.to/iquirino/react-hook-clean-up-useeffect-24e7)
 
-### Styled Components
+## Styled Components
 * [Styled Component Basics](https://styled-components.com/docs/basics)
 * [Styled Components React Native](https://levelup.gitconnected.com/using-styled-components-with-react-native-de645fcf4787)
 * [Sass](https://sass-lang.com/)
@@ -264,6 +287,7 @@ Troubleshooting
 * [Movie Star UI](https://github.com/aagavin/movie-star-ui/tree/master/src)
 * [React Masterminds](https://github.com/drminnaar/react-masterminds)
 
+	
 
 # Other
 	
