@@ -34,8 +34,6 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 * [Setting Up the Dev Environment](#mobile-dev-environment-setup)
 
 
-
-
 # Mobile 
 
 ## Environment 
@@ -246,6 +244,7 @@ See **[Setting up the Dev Environment](#mobile-dev-environment-setup)** at the b
 # Other
 	
 ## Git Resources
+* [Git Guide](https://rogerdudler.github.io/git-guide/)
 * [Adding SSH key to agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 * [Adding SSH to Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 * [Merge Conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
@@ -271,6 +270,8 @@ See **[Setting up the Dev Environment](#mobile-dev-environment-setup)** at the b
 * [Short Lerna tutorial](https://medium.com/shopback-engineering/lerna-tutorial-series-brief-f77f40c5777f)
 
 ## JavaScript
+* [Best Practices](https://devinduct.com/blogpost/22/javascript-clean-code-best-practices)
+* [JS Algorithms](https://github.com/trekhleb/javascript-algorithms)
 * [Promises vs Async Await](https://medium.com/better-programming/should-i-use-promises-or-async-await-126ab5c98789#:~:text=Promise%20creation%20starts%20the%20execution,have%20any%20effect%20on%20it.)
 * [Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 
