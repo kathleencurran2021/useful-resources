@@ -17,7 +17,6 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 
 
 [React](#react)
-* [General](#general)
 * [Components](#components)
 * [Routing](#routing)
 * [Interface](#interface)
@@ -195,6 +194,8 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 
 
 # Ionic
+* [Ionic 6](https://ionicframework.com/docs/intro/upgrading-to-ionic-6)
+* [Ionic Tutorials](https://ionicthemes.com/tutorials/tag/capacitor)
 
 ## Gestures
 * [Gestures](https://ionicframework.com/docs/utilities/gestures)
@@ -267,8 +268,6 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 	
 
 # React
-	
-## General
 
 * [React Master Resource](https://github.com/enaqx/awesome-react#react-general-resources)
 * [React Interview Questions](https://github.com/sudheerj/reactjs-interview-questions#what-is-react)
