@@ -2,7 +2,7 @@
 This repo has code snippets, directions, resources, etc, to use as a reference
 
 
-1. Ionic 
+1. [Ionic](#ionic)
 2. React
 3. Other
 
