@@ -3,8 +3,8 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 
 
 1. [Ionic](#ionic)
-2. React
-3. Other
+2. [React](#react)
+3. [Other](#other)
 
 
 
@@ -226,7 +226,7 @@ Troubleshooting
 * [JWTs in react secure authentication](https://developer.okta.com/blog/2019/10/02/jwt-react-auth)
 
 
-## React
+# React
 
 * [React Master Resource](https://github.com/enaqx/awesome-react#react-general-resources)
 * [React Interview Questions](https://github.com/sudheerj/reactjs-interview-questions#what-is-react)
@@ -265,7 +265,7 @@ Troubleshooting
 * [React Masterminds](https://github.com/drminnaar/react-masterminds)
 
 
-	
+# Other
 	
 	
 ## npm Packaging
@@ -314,8 +314,6 @@ Running a Jest Test
 * IF vscode can’t find any of your modules --> Run yarn in the affected package
 
 
-	
-# Other
 	
 ## Command Line, Linux, and Git 
 * [Master List of Linux Commands](https://kinsta.com/blog/linux-commands/)
