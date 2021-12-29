@@ -118,6 +118,8 @@ See **[Setting up the Dev Environment](#mobile-dev-environment-setup)** at the b
 ### Mobile Troubleshooting
 * [Cannot find module error](https://stackoverflow.com/questions/54695891/cannot-find-module-for-my-own-typescript-module)
 * [Gradle issue](https://stackoverflow.com/questions/30142056/error-unfortunately-you-cant-have-non-gradle-java-modules-and-android-gradle)
+* [ionic capacitor cannot find symbol...](https://stackoverflow.com/questions/62195760/ionic-capacitor-build-cannot-find-symbol-android-support-v4-app-activitycompat)
+* [AndroidX conflicts](https://forum.ionicframework.com/t/capacitor-cant-build-due-to-androidx-conflicts-at-a-total-loss-on-how-to-fix/185535)
 
 **Tips**
 * IF you’re getting that massive babel-loader error and the app won’t spin up on screen --> Delete node_modules from the portal files 
@@ -228,7 +230,15 @@ See **[Setting up the Dev Environment](#mobile-dev-environment-setup)** at the b
 	
 ## Hooks
 * [Context](https://reactjs.org/docs/context.html)
+* [Context with Typescript](https://wanago.io/2020/09/28/react-context-api-hooks-typescript/)
+* [Context with Typescript pt. II](https://javascript.plainenglish.io/how-to-use-react-context-with-hooks-typescript-a21b1460feb6)
+* [Context with Typesecript pt. III](https://dev.to/madv/usecontext-with-typescript-23ln)
+* [Using React’s Context API and useContext() Hooks](https://betterprogramming.pub/how-to-use-reacts-context-api-and-usecontext-hooks-effectively-ed98ad9343b6)
+* [UseContext with React Hooks](https://levelup.gitconnected.com/how-to-use-context-with-react-hooks-5591a4010689)
+* [Updating Context from a nested component](https://dev.to/ramonak/react-context-api-updating-context-from-a-nested-component-in-functional-components-with-hooks-and-class-components-a7a)
 * [useEffect](https://dev.to/iquirino/react-hook-clean-up-useeffect-24e7)
+* [State Modeling with React Hooks and Typescript](https://thoughtbot.com/blog/type-safe-state-modeling-with-typescript-and-react-hooks)
+* [Persisting State example](https://codesandbox.io/s/qm7k80y9?from-embed=&file=/src/usePersistedState.js)
 
 ## Styled Components
 * [Styled Component Basics](https://styled-components.com/docs/basics)
