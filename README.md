@@ -1,9 +1,10 @@
 # useful-resources
 This repo has code snippets, directions, resources, etc, to use as a reference
 
+[UX](#ux)
+* [Ideation](#ideation)
 
 [Mobile](#mobile)
-
 * [Deploying](#deploying)
 * [Troubleshooting](#troubleshooting)
 
@@ -32,6 +33,11 @@ This repo has code snippets, directions, resources, etc, to use as a reference
 * [JavaScript](#javascript)
 * [Testing](#testing)
 * [Setting Up the Dev Environment](#mobile-dev-environment-setup)
+
+# UX
+
+## Ideation 
+* [Tarot Cards of Tech](https://tarotcardsoftech.artefactgroup.com/)
 
 
 # Mobile 
